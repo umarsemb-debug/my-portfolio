@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A clean, responsive personal portfolio website.">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">MyPortfolio</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Your Name</h1>
+          <h2>Beginner Developer &amp; Problem Solver</h2>
+          <p class="hero-text">
+            I'm learning how to build websites and software, one project at a time.
+            This portfolio is my first GitHub project.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View My Projects</a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Developer illustration">
+          <div class="code-window">
+            <span>&lt;developer&gt;</span>
+            <strong>Keep learning.<br>Keep building.</strong>
+            <span>&lt;/developer&gt;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="eyebrow">About Me</p>
+        <h2>I'm building my skills through real projects.</h2>
+        <p>
+          Welcome to my first repository! I'm interested in technology and software
+          development. My goal is to keep learning, practice consistently, and turn
+          ideas into useful digital products.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="eyebrow">My Skills</p>
+        <h2>What I'm learning</h2>
+        <div class="skills-grid">
+          <article class="skill"><span>🌐</span><h3>HTML</h3><p>Building structured web pages.</p></article>
+          <article class="skill"><span>🎨</span><h3>CSS</h3><p>Creating responsive and attractive designs.</p></article>
+          <article class="skill"><span>⚡</span><h3>JavaScript</h3><p>Adding interaction and functionality.</p></article>
+          <article class="skill"><span>🔧</span><h3>Git &amp; GitHub</h3><p>Managing code and collaborating on projects.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="eyebrow">My Projects</p>
+        <h2>Things I've built</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-icon">💼</div>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio website built with HTML, CSS and JavaScript.</p>
+            <span class="tag">This project</span>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">✅</div>
+            <h3>To-Do List</h3>
+            <p>A simple app for adding, completing and removing daily tasks.</p>
+            <span class="tag">Next project</span>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">☁️</div>
+            <h3>Weather App</h3>
+            <p>A beginner project that displays weather information from an API.</p>
+            <span class="tag">Future project</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container narrow">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's connect</h2>
+        <p>Replace the details below with your own information before publishing.</p>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">📧 your.email@example.com</a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">🐙 github.com/yourusername</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
